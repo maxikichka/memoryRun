@@ -6,3 +6,5 @@ You must memorize the numbers. Then when the program says: "Chose the right slot
 If you get the number correct, then your character passes through an underground tunnel, and he is safe, and you continue. Otherwise, you run into spikes, and your score resets. 
 
 Enjoy!
+
+Note: You can also play the game on the website, without having to download it: https://maxikichka.github.io/memoryRun/
