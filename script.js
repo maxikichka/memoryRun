@@ -1,4 +1,4 @@
-var difficulty = 4;
+var difficulty = parseInt(prompt("Select Difficulty: "));;
 var windowWidth = window.screen.width;
 var windowHeight = window.screen.height;
 var gameStarted = false;
