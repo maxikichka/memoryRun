@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang=“en” style="overflow: hidden;">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body style="margin: 0; overflow: hidden;">
+    <div id="game" onmousemove="getCursorPosition(event)" style = "position: fixed;">
+        <h1 id="yourScore">Score: 0</h1>
+        <h1 id="curGameSign" style="background-color: blue;" onmouseup="startGame()">Click Here to Start Game</h1>
+        <h2 id="countdown"></h2>
+        <div id="holes">
+            <div id="hole1" style = "z-index: 8;"></div>
+            <div id="hole2" style = "z-index: 7;"></div>
+            <img id="character" src="imgs/guyStand.png" style = "z-index: 9;"></img>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,47 @@
+#game{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#character{
+    position: absolute;
+}
+
+#hole1{
+    background: black;
+    position: absolute;
+}
+
+#hole2{
+    background: black;
+    position: absolute;
+}
+
+#curGameSign{
+    position: absolute;
+    left: 15%;
+    right: 25%;
+    font-size: 72px;
+    z-index: 99;
+}
+
+#countdown{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 40%;
+    font-size: 100px;
+    color: red;
+    z-index: 11;
+    background-color: green;
+}
+
+#yourScore{
+    z-index: 100;
+    font-size: 100px;
+    top: 40%;
+    right: 0px;
+    position: absolute;
+}
