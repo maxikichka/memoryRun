@@ -1,4 +1,7 @@
-var difficulty = parseInt(prompt("Select Difficulty: "));;
+var difficulty = parseInt(prompt("Select Difficulty (Type a number): "));
+if (Number.isInteger(difficulty) == false) {
+    difficulty = 6;
+}
 var windowWidth = window.screen.width;
 var windowHeight = window.screen.height;
 var gameStarted = false;
